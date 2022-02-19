@@ -12,6 +12,13 @@ app.use(express.json());
 app.use('/snacks', snackController);
 
 // ROUTES
+app.get("/", (req, res) => {
+  res.send("Get Snack'n at Snack-a-log!");
+});
+
+app.get("*", (req, res) => {
+  res.status(404).send("Page not found");
+});
 
 // EXPORT
 module.exports = app;
