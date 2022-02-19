@@ -1,0 +1,98 @@
+body {
+  font-family: Overlock;
+}
+
+h1 {
+  font-family: Carter One;
+  margin-top: 20px;
+}
+ 
+ .Index{
+  width: 100%;
+  margin: 0 auto;
+} 
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: rgb(37, 36, 34);
+  display: flex;
+  justify-content: space-between;
+  padding:  15px 45px;
+  margin-bottom: 15px;
+  align-items: center;
+  box-shadow: 2px 2px 4px grey;
+  background-size: cover;
+}
+
+a {
+  color: rgb(235, 94, 40);
+  text-decoration: none;
+  
+} 
+
+h4 {
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+  align-content: space-between;
+  /* box-shadow: 15px, 15px, 15px, red; */
+  
+}
+
+.Snack {
+  width: 150px;
+  padding: 1em;
+  background-color: rgba(255, 252, 242);
+  box-shadow: 3px 3px #eeeeee, -1em 0 .4em olive;
+  /* border: 1px solid red; */
+}
+
+.Snacks img {
+  width: 150px;
+}
+
+nav button {
+  color: rgb(244, 93, 48);
+
+} 
+
+img.heart {
+  width: 20px;
+  height: 20px;
+}
+
+.Show {
+  /* margin-bottom: 100px; */
+  margin: 100px auto; 
+  padding: 50px;
+  box-shadow: 10px 10px  15px gray;
+}
+
+.showNavigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Edit {
+  margin-bottom: 150px;
+}
+
+.New {
+  margin-left: 200px;
+}
+
+
+ 
+
+
